@@ -1,1 +1,6 @@
+#ignore tests.py
 tests.py
+
+# ignore env folder
+flask/env
+flask/__pycache__
