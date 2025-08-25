@@ -1,7 +1,7 @@
 #ignore tests.py
 tests.py
 
-#ignore env folder
+#ignore env
 flask/env
 
 #ignore pycache
