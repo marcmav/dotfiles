@@ -2,3 +2,4 @@
 tests.py
 flask/env
 practice_challenges.txt
+__pycache__
