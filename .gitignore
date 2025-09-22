@@ -1,4 +1,5 @@
 #ignore:
 py/__pycache__
 py/tests.py
+js-ts/tests.ts
 challenges
