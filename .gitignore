@@ -1,5 +1,4 @@
 #ignore:
 tests.py
-flask/env
 challenges
 __pycache__
