@@ -1,5 +1,5 @@
 #ignore:
 py/__pycache__
 py/tests.py
-js-ts/tests.js
+js/tests.js
 challenges
