@@ -4,6 +4,8 @@ class Todo:
         with open('TODO_List.txt', 'a') as do:
             do.write(task + '\n')
 
+    
+
 
 new = Todo()
 # new.add_task('Write my first task.')
