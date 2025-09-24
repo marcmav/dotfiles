@@ -4,8 +4,12 @@ class Todo:
         with open('todo.txt', 'a') as td:
             td.write(task + '\n')
 
+    def read_tasks(self):
+        with open('todo.txt', 'r') as td:
+            print(td.read())
+
     
 
 
 new = Todo()
-# new.add_task('Write my first task.')
+# new.read_tasks()
