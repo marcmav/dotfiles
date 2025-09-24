@@ -1,8 +1,8 @@
 class Todo:
-    def add_task(self, task=''):
+    def add_task(self, task):
         self.task = task
-        with open('TODO_List.txt', 'a') as do:
-            do.write(task + '\n')
+        with open('todo.txt', 'a') as td:
+            td.write(task + '\n')
 
     
 
