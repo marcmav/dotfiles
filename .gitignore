@@ -1,5 +1,5 @@
 #ignore:
-py/__pycache__
-py/tests.py
+python/__pycache__
+python/tests.py
 challenges
-py/.venv
+python/flask/app/.venv
