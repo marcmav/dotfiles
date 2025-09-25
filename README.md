@@ -7,7 +7,8 @@ Each project is self-contained, well-documented, and follows a consistent struct
 
 ## Projects
 
-1. Image Viewer -- A command based, modern and minimal image viewer.
+1. **Image Viewer**  
+   A command-line based, modern, and minimal image viewer.
 
 ---
 
