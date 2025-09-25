@@ -7,7 +7,7 @@ Each project is self-contained, well-documented, and follows a consistent struct
 
 ## Projects
 
-### 1. [Python README + License Template](./python-readme-license)  
+### 1. [Image Viewer](python/image_viewer/)  
 A template demonstrating professional repository structure, including a `README.md` and license file.  
 Intended as a baseline for future projects.
 
