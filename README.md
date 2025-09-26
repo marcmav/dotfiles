@@ -19,3 +19,9 @@ The goal is not to reinvent the wheel, but to strengthen core programming skills
 
 ## License
 This repository is licensed under the [MIT License](./LICENSE).
+
+## Contact
+For questions, suggestions, or collaboration opportunities, feel free to reach out:
+
+- Email: marciomavungo06@gmail.com  
+- GitHub: [@Marciano  Mavungo](https://github.com/marciomavungo)
