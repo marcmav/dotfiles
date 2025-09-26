@@ -1,6 +1,6 @@
 # Mini Projects
 
-### A collection of Python mini-projects designed to practice core programming concepts, improve code quality, and showcase development skills.  
+A collection of Python mini-projects designed to practice core programming concepts, improve code quality, and showcase development skills.  
 
 This repository is a curated collection of small Python projects that focus on learning through building.  
 Each project is designed to be simple in scope yet complete in execution, with clear documentation, modular code, and professional repository structure.  
