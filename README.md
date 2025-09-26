@@ -12,7 +12,7 @@ The goal is not to reinvent the wheel, but to strengthen core programming skills
 ## Projects
 
 1. **Image Viewer**  
-   A minimalistic, command-line–based image viewer.  
+   A minimalistic, command-line-based image viewer.  
    📸 [View Screenshot](python/image_viewer/assets/0.jpg)
 
 ---
@@ -20,8 +20,6 @@ The goal is not to reinvent the wheel, but to strengthen core programming skills
 ## License
 
 This repository is licensed under the [MIT License](./LICENSE).
-
----
 
 ## Contact
 
