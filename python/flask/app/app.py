@@ -11,7 +11,7 @@ def index():
 def greet(name):
     return f'Hello {name}'
 
-@app.route('/<int:a>/<int:b>')
+@app.route('/multiply/<int:a>/<int:b>')
 def multiply(a, b):
     return f'{a} * {b} = {a*b}'
 
