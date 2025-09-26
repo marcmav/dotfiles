@@ -15,7 +15,7 @@ The goal is not to reinvent the wheel, but to strengthen core programming skills
    A minimalistic and command-line-based image viewer.
    [View Screenshot](python/image_viewer/assets/0.jpg)
 
---
+---
 
 ## License
 This repository is licensed under the [MIT License](./LICENSE).
