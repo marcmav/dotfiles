@@ -1,5 +1,7 @@
-#ignore:
+# Python
 python/__pycache__
 python/tests.py
-projects-to-build
 python/flask/app/.venv
+
+# ignore:
+projects-to-build
