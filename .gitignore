@@ -1,5 +1,5 @@
 #ignore:
 python/__pycache__
 python/tests.py
-challenges
+projects-to-build
 python/flask/app/.venv
