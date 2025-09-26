@@ -1,7 +1,6 @@
 # Mini Projects
 
-## A collection of Python mini-projects designed to practice core programming concepts, improve code quality, and showcase development skills.  
-Each project is self-contained, well-documented, and follows a consistent structure.
+### A collection of Python mini-projects designed to practice core programming concepts, improve code quality, and showcase development skills.  
 
 ---
 
