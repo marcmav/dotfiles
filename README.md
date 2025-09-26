@@ -7,15 +7,13 @@ Each project is designed to be simple in scope yet complete in execution, with c
 
 The goal is not to reinvent the wheel, but to strengthen core programming skills, experiment with different problem-solving approaches, and build a portfolio of reliable and well-documented practical projects.
 
----
 
 ## Projects
-
 1. **Image Viewer**  
    A minimalistic and command-line-based image viewer.
    [View Screenshot](python/image_viewer/assets/0.jpg)
 
 ---
 
-### License
+## License
 This repository is licensed under the [MIT License](./LICENSE).
