@@ -24,4 +24,4 @@ This repository is licensed under the [MIT License](./LICENSE).
 For questions, suggestions, or collaboration opportunities, feel free to reach out:
 
 - Email: marciomavungo06@gmail.com  
-- GitHub: [@Marciano  Mavungo](https://github.com/marciomavungo)
+- GitHub: [@Márcio Mavungo](https://github.com/marciomavungo)
