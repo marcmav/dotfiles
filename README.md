@@ -9,7 +9,7 @@ The goal is not to reinvent the wheel, but to strengthen core programming skills
 
 ---
 
-### Projects
+## Projects
 
 1. **Image Viewer**  
    A minimalistic and command-line-based image viewer.
