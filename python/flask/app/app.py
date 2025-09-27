@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, request
 
 app = Flask(__name__)
 
@@ -14,6 +14,12 @@ def greet(name):
 @app.route('/multiply/<int:a>/<int:b>')
 def multiply(a, b):
     return f'{a} * {b} = {a*b}'
+
+@app.route('/handle_url_params')
+def handle_params():
+    return str(request.args)
+
+
 
 if __name__ == '__main__':
     app.run(debug=True)
