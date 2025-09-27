@@ -5,11 +5,17 @@ app = Flask(__name__)
 
 @app.route("/", methods=['GET', 'POST', 'PUT', 'DELETE'])
 def index():
-    return "Hello, World!"
+    if request.method == 'GET':
+        return 'You made a GET request\n'
+    elif request.method == 'POST':
+        return 'You made a POST request\n'
+    else:
+        return 'You will never see this message'
+    
 
 @app.route('/greet/<name>')
 def greet(name):
-    return f'Hello {name}'
+    return f'Hello {name}', 404
 
 @app.route('/multiply/<int:a>/<int:b>')
 def multiply(a, b):
