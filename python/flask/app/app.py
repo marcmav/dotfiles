@@ -24,7 +24,7 @@ def multiply(a, b):
 @app.route('/handle_url_params')
 def handle_params():
     if 'greeting' in request.args.keys() and 'name' in request.args.keys():
-        greeting = request.args['greeting']
+        greeting = request.args.get('greeting')
         name = request.args.get('name')
         return f'{greeting}, {name}'
     else:
