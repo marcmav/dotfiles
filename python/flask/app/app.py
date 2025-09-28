@@ -13,7 +13,7 @@ def index():
         return 'You will never see this message'
     
 
-@app.route('/greet/<name>')
+@app.route('/<name>')
 def greet(name):
     return f'Hello {name}', 404
 
