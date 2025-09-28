@@ -6,9 +6,9 @@ app = Flask(__name__)
 @app.route("/", methods=['GET', 'POST', 'PUT', 'DELETE'])
 def index():
     if request.method == 'GET':
-        return 'You made a GET request\n'
+        return 'You made a GET request\n', 200
     elif request.method == 'POST':
-        return 'You made a POST request\n'
+        return 'You made a POST request\n', 201
     else:
         return 'You will never see this message'
     
