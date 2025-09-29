@@ -1,4 +1,4 @@
-from flask import Flask, request
+from flask import Flask, request, make_response
 
 app = Flask(__name__)
 
@@ -10,12 +10,15 @@ def index():
     elif request.method == 'POST':
         return 'You made a POST request\n', 201
     else:
-        return 'You will never see this message'
+        return 'You will never see this message', 404
     
 
 @app.route('/<name>')
 def greet(name):
-    return f'Hello {name}', 404
+    response = make_response() 
+    response.status_code = 201
+    response.headers['content type'] = 'python/text'
+    return response
 
 @app.route('/multiply/<int:a>&<int:b>')
 def multiply(a, b):
