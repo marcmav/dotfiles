@@ -3,7 +3,7 @@ from flask import Flask, request
 app = Flask(__name__)
 
 
-@app.route("/", methods=['GET', 'POST', 'PUT', 'DELETE'])
+@app.route("/", methods=['GET', 'POST'])
 def index():
     if request.method == 'GET':
         return 'You made a GET request\n', 200
