@@ -1,7 +1,7 @@
 # Python
 python/__pycache__
 python/tests.py
-python/flask/app/.venv
+python/app/.venv
 
 # Python/image_viewer
 python/image_viewer/.venv
