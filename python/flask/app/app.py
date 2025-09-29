@@ -13,8 +13,8 @@ def index():
         return 'You will never see this message', 404
     
 
-@app.route('/<name>')
-def greet(name):
+@app.route('/home')
+def greet():
     response = make_response() 
     response.status_code = 201
     response.headers['content type'] = 'python/text'
