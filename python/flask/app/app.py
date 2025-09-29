@@ -20,10 +20,6 @@ def greet():
     response.headers['content type'] = 'python/text'
     return response
 
-@app.route('/multiply/<int:a>&<int:b>')
-def multiply(a, b):
-    return f'{a} * {b} = {a*b}'
-
 @app.route('/handle_url_params')
 def handle_params():
     if 'greeting' in request.args.keys() and 'name' in request.args.keys():
