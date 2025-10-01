@@ -1,10 +1,10 @@
 # Python
-python/__pycache__
-python/tests.py
+src/__pycache__
+src/tests.py
 
-# Python/.venv
-python/app/.venv
-python/image_viewer/.venv
+# src/.venv
+src/app/.venv
+src/image-viewer/.venv
 
 # ignore:
 projects-to-build.txt
