@@ -13,7 +13,7 @@ The goal is not to reinvent the wheel, but to strengthen core programming skills
 
 1. **Image Viewer**  
    A minimalistic, command-line-based image viewer.  
-   📸 [View Screenshot](python/image_viewer/assets/0.jpg)
+   📸 [View Screenshot](src/image-viewer/assets/0.jpg)
 
 ---
 
