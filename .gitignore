@@ -1,6 +1,5 @@
 # Python
 src/__pycache__
-src/tests.py
 
 # src/.venv
 src/app/.venv
@@ -8,3 +7,7 @@ src/image-viewer/.venv
 
 # ignore:
 projects-to-build.txt
+
+# tests
+src/tests.py
+src/tests.html
