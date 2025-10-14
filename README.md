@@ -9,14 +9,6 @@ The goal is not to reinvent the wheel, but to strengthen core programming skills
 
 ---
 
-## Projects
-
-1. **Image Viewer**  
-   A minimalistic, command-line-based image viewer.  
-   📸 [View Screenshot](src/image-viewer/assets/0.jpg)
-
----
-
 ## License
 
 This repository is licensed under the [MIT License](./LICENSE).
