@@ -2,7 +2,6 @@
 src/__pycache__
 
 # src/.venv
-src/app/.venv
 src/image-viewer/.venv
 
 # ignore:
