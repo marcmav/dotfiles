@@ -11,7 +11,7 @@ The goal is not to reinvent the wheel, but to strengthen core programming skills
 
 ## License
 
-This repository is licensed under the [MIT License](./LICENSE).
+This repository is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
