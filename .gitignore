@@ -10,3 +10,4 @@ projects-to-build.txt
 # tests
 src/tests.py
 src/tests.html
+src/tests.css
