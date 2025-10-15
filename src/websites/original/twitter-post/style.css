@@ -7,3 +7,7 @@ img {
 body {
   background-color: beige;
 }
+
+.username {
+  font-weight: bold;
+}
