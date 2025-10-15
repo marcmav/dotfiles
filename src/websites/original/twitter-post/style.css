@@ -3,3 +3,7 @@ img {
   float: left;
   margin-right: 10px;
 }
+
+body {
+  background-color: beige;
+}
