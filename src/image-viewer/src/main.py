@@ -14,7 +14,7 @@ top_frame.pack_propagate(False)
 label = tk.Label(
     top_frame,
     text='Sierra',
-    font=('Fira Sans', 11),
+    font=('Fira Code', 11),
     bg='#252526',
     fg='#d4d4d4')
 label.pack(expand=True)
