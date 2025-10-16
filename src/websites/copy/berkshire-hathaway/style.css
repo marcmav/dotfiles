@@ -11,5 +11,9 @@ body {
 }
 
 .small {
+  font-size: 0.9em;
+}
+
+.smaller {
   font-size: 0.7em;
 }
