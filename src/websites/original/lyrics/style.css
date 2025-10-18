@@ -1,3 +1,7 @@
 body {
   background: whitesmoke;
 }
+
+#lyrics {
+  font-family: "Fira Code";
+}
