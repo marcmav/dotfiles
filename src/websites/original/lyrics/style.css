@@ -4,6 +4,7 @@ body {
 
 #by {
   margin-top: 0px;
+  font-weight: normal;
 }
 
 #song {
@@ -12,4 +13,5 @@ body {
 
 .bigger {
   font-size: 1.2em;
+  font-weight: bold;
 }
