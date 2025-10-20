@@ -7,7 +7,7 @@ src/tests.js
 # .venv
 src/image-viewer/.venv
 
-# Python
+# cache
 src/__pycache__
 
 
