@@ -1,7 +1,7 @@
 # Python
 src/__pycache__
 
-# src/.venv
+# .venv
 src/image-viewer/.venv
 
 # ignore:
