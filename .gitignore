@@ -11,3 +11,4 @@ projects-to-build.txt
 src/tests.py
 src/tests.html
 src/tests.css
+src/tests.js
