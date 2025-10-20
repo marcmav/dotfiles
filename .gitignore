@@ -10,6 +10,5 @@ src/image-viewer/.venv
 # cache
 src/__pycache__
 
-
-# ignore:
+# ideas
 projects-to-build.txt
