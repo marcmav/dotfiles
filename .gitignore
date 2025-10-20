@@ -1,14 +1,15 @@
-# Python
-src/__pycache__
-
-# .venv
-src/image-viewer/.venv
-
-# ignore:
-projects-to-build.txt
-
 # tests
 src/tests.py
 src/tests.html
 src/tests.css
 src/tests.js
+
+# .venv
+src/image-viewer/.venv
+
+# Python
+src/__pycache__
+
+
+# ignore:
+projects-to-build.txt
