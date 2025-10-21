@@ -8,4 +8,3 @@ console.log(`1. Add.
 3. Multiply.
 4. Divide.
 5. Exit.`);
-let operation = window.prompt("Choose an operation (1-5): ");
