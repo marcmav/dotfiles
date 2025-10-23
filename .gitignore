@@ -5,7 +5,7 @@ src/tests.css
 src/tests.js
 
 # .venv
-src/image-viewer/.venv
+src/image-viewer/src/.venv
 
 # cache
 src/__pycache__
