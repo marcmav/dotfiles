@@ -8,3 +8,6 @@ console.log(`1. Add.
 3. Multiply.
 4. Divide.
 5. Exit.`);
+while (true) {
+    
+}
