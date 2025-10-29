@@ -9,4 +9,4 @@ do {
         3. Multiply.
         4. Divide.
         5. Exit.`);
-    } while (true)    
+    } while (true)   
