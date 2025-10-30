@@ -7,6 +7,6 @@ do {
     console.log(`1. Add.
         2. Subtract.
         3. Multiply.
-        4. Divide.
+        4. Divide. 
         5. Exit.`);
     } while (true)  
