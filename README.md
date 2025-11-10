@@ -5,7 +5,7 @@ A collection of mini-projects designed to practice core programming concepts, im
 This repository is a curated collection of small projects that focus on learning through building.  
 Each project is designed to be simple in scope yet complete in execution, with modular code and professional repository structure.  
 
-The goal is not to reinvent the wheel, but to strengthen core programming skills, experiment with different problem-solving approaches, and build a portfolio of reliable and well-documented projects.
+The goal is not to reinvent the wheel, but to strengthen core programming skills, experiment with different problem-solving approaches and build a portfolio of reliable and well-documented projects.
 
 ---
 
