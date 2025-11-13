@@ -39,7 +39,7 @@ command_entry = tk.Entry(
     bg='#333333',
     fg='#d4d4d4',
     insertbackground='#aeafad')
-command_entry.pack(side='right', padx=(0, 10), pady=10) 
+command_entry.pack(side='right', padx=(0, 10), pady=10)
 command_entry.focus()
 
 command_label = tk.Label(
