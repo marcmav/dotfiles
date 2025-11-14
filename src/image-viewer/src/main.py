@@ -34,7 +34,7 @@ bottom_frame.pack_propagate(False)
 
 command_entry = tk.Entry(
     bottom_frame,
-    font=('Fira Sans', 9), 
+    font=('Fira Sans', 9),
     width=30,
     bg='#333333',
     fg='#d4d4d4',
