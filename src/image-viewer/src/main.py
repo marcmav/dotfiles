@@ -91,4 +91,4 @@ def run_command(event=None):
 # Bind Enter key
 command_entry.bind('<Return>', run_command)
 
-root.mainloop()    
+root.mainloop()     
