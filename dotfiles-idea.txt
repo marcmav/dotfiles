@@ -7,4 +7,3 @@ ln -s ~/dotfiles/.bashrc ~/.bashrc
 
 # also find a way to add 'installation on different OS'
 
-
