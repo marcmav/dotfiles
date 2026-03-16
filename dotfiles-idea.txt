@@ -11,4 +11,4 @@ ln -s ~/dotfiles/.bashrc ~/.bashrc
 #when opening the terminal it must start in insert mode
 #add keymap for :so $MYVIMRC
 #add keymap for :wq, :w, :q
-
+im thinking about ctrl + s for :w and ctrl + backspace for :q
