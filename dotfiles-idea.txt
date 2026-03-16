@@ -1,14 +1,18 @@
 # add 'how to install on readme'
-
 git clone https://github.com/you/dotfiles.git
-
 ln -s ~/dotfiles/nvim ~/.config/nvim
 ln -s ~/dotfiles/.bashrc ~/.bashrc
-
 # also find a way to add 'installation on different OS'
 
+
 #add the config to start on the current directory when opening the terminal
+
 #when opening the terminal it must start in insert mode
+
 #add keymap for :so $MYVIMRC
+
 #add keymap for :wq, :w, :q
-im thinking about ctrl + s for :w and ctrl + backspace for :q
+im thinking about ctrl + s or return for :w and ctrl + backspace for :q
+
+#find a way to make terminal split take only 30% of the vertical backspace
+
