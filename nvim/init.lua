@@ -21,4 +21,16 @@ vim.keymap.set("n", "<leader>tn", ":tabnew<CR>") -- space + tn == tabnew
 vim.keymap.set("n", "<leader>c", ":tabclose<CR>") -- space + tc == tabclose
 
 -- open terminal with space + t
-vim.keymap.set("n", "<leader>t", ":terminal<CR>")
+vim.keymap.set("n", "<leader>t", function()
+  for _, buf in ipairs(vim.api.nvim_list_bufs()) do
+    if vim.bo[buf].buftype == "terminal" then
+      vim.api.nvim_buf_delete(buf, { force = true })
+      return
+    end
+  end
+  vim.cmd("split | terminal")
+end)
+
+-- toggle terminal mode with ctrl + t or Esc
+vim.keymap.set("t", "<C-t>", "<C-\\><C-n>", { noremap = true, silent = true })
+vim.keymap.set("t", "<Esc>", "<C-\\><C-n>", { noremap = true, silent = true })
