@@ -1,7 +1,9 @@
 -- bootstrap lazy.nvim, LazyVim and your plugins
 require("config.lazy")
 
+-- toggle normal mode and terminal mode with "jj"
 vim.keymap.set("i", "jj", "<Esc>", { noremap = true })
+vim.keymap.set("t", "jj", "<C-\\><C-n>", { noremap = true, silent = true })
 
 -- open neotree with space + e
 vim.keymap.set("n", "<leader>e", ":Neotree toggle<CR>")
@@ -30,6 +32,3 @@ vim.keymap.set("n", "<leader>t", function()
   end
   vim.cmd("split | terminal")
 end)
-
--- toggle terminal mode with ctrl + t or Esc
-vim.keymap.set("t", "<Esc>", "<C-\\><C-n>", { noremap = true, silent = true })

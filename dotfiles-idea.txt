@@ -7,3 +7,6 @@ ln -s ~/dotfiles/.bashrc ~/.bashrc
 
 # also find a way to add 'installation on different OS'
 
+#add the config to start on the current directory when opening the terminal
+#when opening the terminal it must start in insert mode
+
