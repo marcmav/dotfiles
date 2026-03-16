@@ -32,5 +32,4 @@ vim.keymap.set("n", "<leader>t", function()
 end)
 
 -- toggle terminal mode with ctrl + t or Esc
-vim.keymap.set("t", "<C-t>", "<C-\\><C-n>", { noremap = true, silent = true })
 vim.keymap.set("t", "<Esc>", "<C-\\><C-n>", { noremap = true, silent = true })
