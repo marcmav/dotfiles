@@ -18,4 +18,7 @@ vim.keymap.set("n", "E", "$") -- "$" to E
 
 -- space  + tn (tabnew) and space + tc (tabclose)
 vim.keymap.set("n", "<leader>tn", ":tabnew<CR>") -- space + tn == tabnew
-vim.keymap.set("n", "<leader>tc", ":tabclose<CR>") -- space + tc == tabclose
+vim.keymap.set("n", "<leader>c", ":tabclose<CR>") -- space + tc == tabclose
+
+-- open terminal with space + t
+vim.keymap.set("n", "<leader>t", ":terminal<CR>")
