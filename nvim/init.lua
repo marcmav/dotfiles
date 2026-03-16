@@ -18,10 +18,6 @@ vim.keymap.set("n", "<C-l>", "<C-w>l") -- ctrl + l = left window focus
 vim.keymap.set("n", "B", "^") -- "^" to B
 vim.keymap.set("n", "E", "$") -- "$" to E
 
--- space  + tn (tabnew) and space + tc (tabclose)
-vim.keymap.set("n", "<leader>tn", ":tabnew<CR>") -- space + tn == tabnew
-vim.keymap.set("n", "<leader>c", ":tabclose<CR>") -- space + tc == tabclose
-
 -- open terminal with space + t
 vim.keymap.set("n", "<leader>t", function()
   for _, buf in ipairs(vim.api.nvim_list_bufs()) do
