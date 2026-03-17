@@ -6,6 +6,7 @@
 from normal mode:
 
 ### basic
+. = repeat the last command
 i = insert before cursor
 a = insert after cursor
 I = insert on the start of line
