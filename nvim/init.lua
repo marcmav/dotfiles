@@ -18,7 +18,7 @@ vim.keymap.set("n", "<C-l>", "<C-w>l") -- ctrl + l = left window focus
 vim.keymap.set("n", "B", "^") -- "^" to B
 vim.keymap.set("n", "E", "$") -- "$" to E
 
--- open terminal with space + t
+-- open and close terminal with space + t
 vim.keymap.set("n", "<leader>t", function()
   for _, buf in ipairs(vim.api.nvim_list_bufs()) do
     if vim.bo[buf].buftype == "terminal" then
