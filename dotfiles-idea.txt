@@ -27,3 +27,4 @@ im thinking about ctrl + s or return for :w and ctrl + backspace for :q
   ctrl + c (to enter normal mode [does not work on terminal]);
   ctrl + \ + n (to enter normal mode while on terminal);
   ctrl + / (to open terminal mode);
+  $ (jump to the end of the line);
