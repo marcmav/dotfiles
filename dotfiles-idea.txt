@@ -26,6 +26,6 @@ im thinking about ctrl + s or return for :w and ctrl + backspace for :q
 
 #need to change keymaps for the following unused commands: 
   Esc (to enter normal mode);
-  ctrl + c (to enter normal mode);
+  ctrl + c (to enter normal mode [does not work on terminal]);
   ctrl + \ + n (to enter normal mode while on terminal);
   ctrl + / (to open terminal mode);
