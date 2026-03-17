@@ -24,4 +24,7 @@ im thinking about ctrl + s or return for :w and ctrl + backspace for :q
 
 #when typing h on the first character, take cursor to the last character of previous line
 
-
+#need to change keymaps for the following unused commands: 
+  ctrl + c (to enter normal mode);
+  ctrl + / (to open terminal mode);
+  
