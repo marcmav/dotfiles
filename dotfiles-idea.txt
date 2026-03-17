@@ -17,12 +17,10 @@ im thinking about ctrl + s or return for :w and ctrl + backspace for :q
 #find a way to make terminal split take only 30% of the vertical backspace
 
 #when typing j on the last line, take cursor to the last character
-
 #when typing k on the first line, take cursor to the first character
-
 #when typing l on the last character, take cursor to the first character of the next line
-
 #when typing h on the first character, take cursor to the last character of previous line
+#when typing 0 on the first character, take cursor to the last character
 
 #need to change keymaps for the following unused commands: 
   Esc (to enter normal mode);
