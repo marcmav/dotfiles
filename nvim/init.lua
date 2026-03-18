@@ -18,7 +18,8 @@ vim.keymap.set("n", "<C-k>", "<C-w>k") -- ctrl + k = up window focus
 vim.keymap.set("n", "<C-l>", "<C-w>l") -- ctrl + l = left window focus
 
 -- refactor
-vim.keymap.set("n", "B", "^") -- "^" to B
+vim.keymap.set("n", "BB", "^") -- "^" to B
+vim.keymap.set("n", "B", "0") -- "0" to BB
 vim.keymap.set("n", "E", "$") -- "$" to E
 
 -- open and close terminal with space + t
