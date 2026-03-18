@@ -33,3 +33,7 @@ im thinking about ctrl + s or return for :w and ctrl + backspace for :q
   $ (jump to the end of the line);
 
 #ctrl + r to leader + u
+
+#find a better command instead of:
+  ctrl + u (move halfway up the screen)
+  ctrl + d (move halfway down the screen)
