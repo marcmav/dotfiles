@@ -4,6 +4,7 @@ ln -s ~/dotfiles/nvim ~/.config/nvim
 ln -s ~/dotfiles/.bashrc ~/.bashrc
 # also find a way to add 'installation on different OS'
 
+#add install.sh file
 
 #add the config to start on the current directory when opening the terminal
 
