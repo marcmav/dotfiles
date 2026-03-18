@@ -31,3 +31,5 @@ im thinking about ctrl + s or return for :w and ctrl + backspace for :q
   ctrl + \ + n (to enter normal mode while on terminal);
   ctrl + / (to open terminal mode);
   $ (jump to the end of the line);
+
+#ctrl + r to leader + u
