@@ -1,11 +1,12 @@
 --- bootstrap lazy.nvim, LazyVim and your plugins
 require("config.lazy")
+vim.opt.relativenumber = true
 
 -------------------------REMAP-------------------------
 -------------------------------------------------------
 
-vim.keymap.set("n", "BB", "^") -- "^" to B
 vim.keymap.set("n", "B", "0") -- "0" to BB
+vim.keymap.set("n", "BB", "^") -- "^" to B
 vim.keymap.set("n", "E", "$") -- "$" to E
 
 -- toggle normal mode and terminal mode with "jj"
