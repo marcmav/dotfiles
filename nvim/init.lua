@@ -4,6 +4,10 @@ require("config.lazy")
 -------------------------REMAP-------------------------
 -------------------------------------------------------
 
+vim.keymap.set("n", "BB", "^") -- "^" to B
+vim.keymap.set("n", "B", "0") -- "0" to BB
+vim.keymap.set("n", "E", "$") -- "$" to E
+
 -- toggle normal mode and terminal mode with "jj"
 vim.keymap.set("i", "jj", "<Esc>", { noremap = true })
 vim.keymap.set("t", "jj", "<C-\\><C-n>", { noremap = true, silent = true })
@@ -16,11 +20,6 @@ vim.keymap.set("n", "<C-h>", "<C-w>h") -- ctrl + h = left window focus
 vim.keymap.set("n", "<C-j>", "<C-w>j") -- ctrl + j = down window focus
 vim.keymap.set("n", "<C-k>", "<C-w>k") -- ctrl + k = up window focus
 vim.keymap.set("n", "<C-l>", "<C-w>l") -- ctrl + l = left window focus
-
--- refactor
-vim.keymap.set("n", "BB", "^") -- "^" to B
-vim.keymap.set("n", "B", "0") -- "0" to BB
-vim.keymap.set("n", "E", "$") -- "$" to E
 
 -- open and close terminal with space + t
 vim.keymap.set("n", "<leader>t", function()
