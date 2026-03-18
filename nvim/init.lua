@@ -1,5 +1,7 @@
--- bootstrap lazy.nvim, LazyVim and your plugins
+--- bootstrap lazy.nvim, LazyVim and your plugins
 require("config.lazy")
+
+-------------------------REMAP-------------------------
 
 -- toggle normal mode and terminal mode with "jj"
 vim.keymap.set("i", "jj", "<Esc>", { noremap = true })
