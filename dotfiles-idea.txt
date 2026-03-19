@@ -25,6 +25,8 @@ im thinking about ctrl + s or return for :w and ctrl + backspace for :q
 #when typing h on the first character, take cursor to the last character of previous line
 #when typing 0 on the first character, take cursor to the last character
 
+#must remove unused commands so it doesnt do something that i dont know
+
 #need to change keymaps for the following unused commands: 
   Esc (to enter normal mode);
   ctrl + c (to enter normal mode [does not work on terminal]);
