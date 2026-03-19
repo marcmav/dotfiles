@@ -1,6 +1,16 @@
 # Cheat Sheet
 
 
+## Normal Mode
+
+### basic
+x = delete character under the cursor (right delete)
+X = delete character to the left
+
+
+
+
+
 ## Insert Mode
 
 from normal mode:
@@ -11,10 +21,15 @@ i = insert before cursor
 a = insert after cursor
 I = insert on the start of line
 A = insert on the end of line
-x = delete character under the cursor (right delete)
-X = delete character to the left
 
 ### line-based
 o = new line below
 O = new line above
+
+
+
+## Visual - 
+
+### basic
+
 
