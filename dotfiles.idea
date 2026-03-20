@@ -3,17 +3,17 @@
 ------------------------------------------------------------
 
 add 'how to install on readme'
-
-------------------------------------------------------------
-----------------------------NVIM----------------------------
-------------------------------------------------------------
- 
+add install.sh file
 git clone https://github.com/you/dotfiles.git
 ln -s ~/dotfiles/nvim ~/.config/nvim
 ln -s ~/dotfiles/.bashrc ~/.bashrc
 also find a way to add 'installation on different OS'
 
-add install.sh file
+
+------------------------------------------------------------
+----------------------------NVIM----------------------------
+------------------------------------------------------------
+ 
 
 add the config to start on the current directory when opening the terminal
 
