@@ -13,7 +13,8 @@ also find a way to add 'installation on different OS'
 ------------------------------------------------------------
 ----------------------------NVIM----------------------------
 ------------------------------------------------------------
- 
+
+add a command for :noau w
 
 add the config to start on the current directory when opening the terminal
 
