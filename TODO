@@ -8,7 +8,7 @@ git clone https://github.com/you/dotfiles.git
 ln -s ~/dotfiles/nvim ~/.config/nvim
 ln -s ~/dotfiles/.bashrc ~/.bashrc
 also find a way to add 'installation on different OS'
-
+add linter and text highlighter for javascript
 
 ------------------------------------------------------------
 ----------------------------NVIM----------------------------
