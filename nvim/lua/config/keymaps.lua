@@ -5,8 +5,8 @@
 -------------------------REMAP-------------------------
 -------------------------------------------------------
 
-vim.keymap.set({ "n", "v" }, "B", "0") -- "0" to BB
-vim.keymap.set({ "n", "v" }, "BB", "^") -- "^" to B
+vim.keymap.set({ "n", "v" }, "B", "0") -- "0" to B
+vim.keymap.set({ "n", "v" }, "BB", "^") -- "^" to BB
 vim.keymap.set({ "n", "v" }, "E", "$") -- "$" to E
 
 -- toggle normal mode and terminal mode with "jj"
