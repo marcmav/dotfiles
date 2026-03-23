@@ -10,7 +10,7 @@ vim.keymap.set({ "n", "v" }, "BB", "^") -- "^" to BB
 vim.keymap.set({ "n", "v" }, "E", "$") -- "$" to E
 
 -- toggle normal mode and terminal mode with "jj"
-vim.keymap.set("i", "jj", "<Esc>", { noremap = true })
+vim.keymap.set({ "i", "v" }, "jj", "<Esc>", { noremap = true })
 vim.keymap.set("t", "jj", "<C-\\><C-n>", { noremap = true, silent = true })
 
 -- open neotree with space + e
