@@ -23,7 +23,6 @@ when opening the terminal it must start in insert mode
 add keymap for :source $MYVIMRC
 
 add keymap for :wq, :w, :q
-
 im thinking about ctrl + s or return for :w and ctrl + backspace for :q
 
 find a way to make terminal split take only 30% of the vertical backspace
@@ -34,9 +33,7 @@ when typing j on the last line, take cursor to the last character
 when typing k on the first line, take cursor to the first character
 when typing l on the last character, take cursor to the first character of the next line
 when typing h on the first character, take cursor to the last character of previous line
-when typing 0 on the first character, take cursor to the last character
 
-must remove unused commands so it doesnt do something that i dont know
 
 need to change keymaps for the following unused commands: 
   Esc (to enter normal mode);
@@ -46,7 +43,7 @@ need to change keymaps for the following unused commands:
   ctrl + / (to open terminal mode);
   $ (jump to the end of the line);
 
-ctrl + r to leader + u
+ctrl + r to U
 
 find a better command instead of:
   ctrl + u (move halfway up the screen)
