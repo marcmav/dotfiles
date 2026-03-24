@@ -21,7 +21,7 @@ vim.keymap.set("n", "<C-h>", "<C-w>h") -- ctrl + h = left window focus
 vim.keymap.set("n", "<C-j>", "<C-w>j") -- ctrl + j = down window focus
 vim.keymap.set("n", "<C-k>", "<C-w>k") -- ctrl + k = up window focus
 vim.keymap.set("n", "<C-l>", "<C-w>l") -- ctrl + l = left window focus
-
+ 
 -- open and close terminal with space + t
 vim.keymap.set("n", "<leader>t", function()
   for _, buf in ipairs(vim.api.nvim_list_bufs()) do
