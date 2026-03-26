@@ -41,8 +41,6 @@ need to change keymaps for the following unused commands:
   ctrl + / (to open terminal mode);
   $ (jump to the end of the line);
 
-ctrl + r to U
-
 find a better command instead of:
   ctrl + u (move halfway up the screen)
   ctrl + d (move halfway down the screen)
