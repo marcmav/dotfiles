@@ -8,6 +8,7 @@
 vim.keymap.set({ "n", "v", "o" }, "B", "0") -- "0" to B
 vim.keymap.set({ "n", "v", "o" }, "BB", "^") -- "^" to BB
 vim.keymap.set({ "n", "v", "o" }, "E", "$") -- "$" to E
+vim.keymap.set("n", "U", "<C-r>") -- "Ctrl + r" to U
 
 -- toggle normal mode and terminal mode with "jj"
 vim.keymap.set("i", "jj", "<Esc>", { noremap = true })
