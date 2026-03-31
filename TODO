@@ -14,6 +14,8 @@ add linter and text highlighter for javascript
 ----------------------------NVIM----------------------------
 ------------------------------------------------------------
 
+how to close a tab in nvim?
+
 add a command for :noau w
 
 add the config to start on the current directory when opening the terminal
