@@ -22,7 +22,7 @@ add the config to start on the current directory when opening the terminal
 
 when opening the terminal it must start in insert mode
 
-add keymap for :source $MYVIMRC
+add keymap for :source %
 
 add keymap for :wq, :w, :q, :x
 im thinking about ctrl + s or return for :w and ctrl + backspace for :q
