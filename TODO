@@ -14,7 +14,7 @@ add linter and text highlighter for javascript
 ----------------------------NVIM----------------------------
 ------------------------------------------------------------
 
-how to close a tab in nvim?
+how to close a buffer in nvim?
 
 add a command for :noau w
 
