@@ -14,6 +14,7 @@ add linter and text highlighter for javascript
 ----------------------------NVIM----------------------------
 ------------------------------------------------------------
 
+
 add a command for :noau w
 
 when opening the terminal it must start in insert mode
