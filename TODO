@@ -16,7 +16,6 @@ add linter and text highlighter for javascript
 
 add a command for :noau w
 
-
 when opening the terminal it must start in insert mode
 
 add keymap for :source %
