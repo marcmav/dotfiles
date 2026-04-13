@@ -22,7 +22,6 @@ add keymap for :source %
 
 how to copy or mark from char under cursor to the end of the line?
 
-
 add keymap for :w, :q, :x
 im thinking about ctrl + s or return for :w and ctrl + backspace for :q
 
