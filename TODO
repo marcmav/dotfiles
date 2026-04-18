@@ -18,7 +18,6 @@ add a command for :noau w
 
 when opening the terminal it must start in insert mode
 
-
 add keymap for :source %
 
 how to copy or mark from char under cursor to the end of the line?
