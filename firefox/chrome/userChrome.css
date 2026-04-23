@@ -1,0 +1,5 @@
+/* Remove the close window button (X) */
+.titlebar-buttonbox-container,
+.titlebar-close {
+  display: none !important;
+}
