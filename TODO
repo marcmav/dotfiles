@@ -29,7 +29,6 @@ when typing k on the first line, take cursor to the first character
 when typing l on the last character, take cursor to the first character of the next line
 when typing h on the first character, take cursor to the last character of previous line
 
-
 need to change keymaps for the following unused commands:
   ctrl + [ (to enter normal mode from insert mode)
   ctrl + c (to enter normal mode [does not work on terminal]);
@@ -41,3 +40,4 @@ find a better command instead of:
   ctrl + u (move halfway up the screen)
   ctrl + d (move halfway down the screen)
 
+add caps lock to work as esc
