@@ -30,7 +30,7 @@ when typing l on the last character, take cursor to the first character of the n
 when typing h on the first character, take cursor to the last character of previous line
 
 
-need to change keymaps for the following unused commands: 
+need to change keymaps for the following unused commands:
   ctrl + [ (to enter normal mode from insert mode)
   ctrl + c (to enter normal mode [does not work on terminal]);
   ctrl + \ + n (to enter normal mode while on terminal);
