@@ -9,6 +9,7 @@ ln -s ~/dotfiles/nvim ~/.config/nvim
 ln -s ~/dotfiles/.bashrc ~/.bashrc
 also find a way to add 'installation on different OS'
 add linter and text highlighter for javascript
+find a way to hide files on newtree without having to add '.' at the beginning of the file name
 
 ------------------------------------------------------------
 ----------------------------NVIM----------------------------
@@ -42,8 +43,4 @@ find a better command instead of:
 add caps lock to work as esc
 
 how to enter without getting on insert mode?
-
-
-
-find a way to hide files on newtree without having to add '.' at the beginning of the file name
 
