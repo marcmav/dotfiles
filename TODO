@@ -4,9 +4,6 @@
 
 add 'how to install on readme'
 add install.sh file
-git clone https://github.com/you/dotfiles.git
-ln -s ~/dotfiles/nvim ~/.config/nvim
-ln -s ~/dotfiles/.bashrc ~/.bashrc
 also find a way to add 'installation on different OS'
 add linter and text highlighter for javascript
 find a way to hide files on newtree without having to add '.' at the beginning of the file name
