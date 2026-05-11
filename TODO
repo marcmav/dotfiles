@@ -11,6 +11,8 @@ also find a way to add 'installation on different OS'
 add linter and text highlighter for javascript
 find a way to hide files on newtree without having to add '.' at the beginning of the file name
 
+create a bash script that automatically takes all the used firefox profiles and 
+takes its ID and add it on the script that symlinks to all firefox profiles the css configs.
 ------------------------------------------------------------
 ----------------------------NVIM----------------------------
 ------------------------------------------------------------
@@ -19,8 +21,7 @@ add a command for :noau w
 
 add keymap for :source %
 
-add keymap for :w, :q, :x
-im thinking about ctrl + s or return for :w and ctrl + backspace for :q
+ctrl + s or return for :w and ctrl + backspace for :q
 
 find a new command for % (move between matching parenthesis)
 
