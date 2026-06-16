@@ -25,6 +25,8 @@ vim.keymap.set("n", "<C-l>", "<C-w>l") -- ctrl + l = left window focus
 
 vim.keymap.set("n", "<C-d>", "<C-d>zz")
 vim.keymap.set("n", "<C-u>", "<C-u>zz")
+vim.keymap.set("n", "n", "nzzzv")
+vim.keymap.set("n", "N", "Nzzzv")
 
 -- open and close terminal with space + t
 vim.keymap.set("n", "<leader>t", function()
