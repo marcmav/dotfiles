@@ -23,17 +23,20 @@ vim.keymap.set("n", "<C-j>", "<C-w>j") -- ctrl + j = down window focus
 vim.keymap.set("n", "<C-k>", "<C-w>k") -- ctrl + k = up window focus
 vim.keymap.set("n", "<C-l>", "<C-w>l") -- ctrl + l = left window focus
 
+vim.keymap.set("n", "<C-d>", "<C-d>zz")
+vim.keymap.set("n", "<C-u>", "<C-u>zz")
+
 -- open and close terminal with space + t
 vim.keymap.set("n", "<leader>t", function()
-  for _, buf in ipairs(vim.api.nvim_list_bufs()) do
-    if vim.bo[buf].buftype == "terminal" then
-      vim.api.nvim_buf_delete(buf, { force = true })
-      return
+    for _, buf in ipairs(vim.api.nvim_list_bufs()) do
+        if vim.bo[buf].buftype == "terminal" then
+            vim.api.nvim_buf_delete(buf, { force = true })
+            return
+        end
     end
-  end
-  vim.cmd("split")
-  vim.cmd("terminal")
-  vim.api.nvim_win_set_height(0, 8)
+    vim.cmd("split")
+    vim.cmd("terminal")
+    vim.api.nvim_win_set_height(0, 8)
 end)
 
 -------------------------------------------------------
