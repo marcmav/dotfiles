@@ -14,6 +14,7 @@ add caps lock keybinding:
 caps lock + shift:
 	h l to move through different workspaces
 	j k to move through existing workspaces
+caps lock + space to move through existing workspaces
 
 ------------------------------------------------------------
 ----------------------------NVIM----------------------------
