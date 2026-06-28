@@ -9,13 +9,6 @@ find a way to hide files on newtree without having to add '.' at the beginning o
 create a bash script that automatically takes all the used firefox profiles and 
 takes its ID and add it on the script that symlinks to all firefox profiles the css configs.
 
-add caps lock keybinding:
-	h j k l to move through different windows
-caps lock + shift:
-	h l to move through different workspaces
-	j k to move through existing workspaces
-caps lock + space to move through existing workspaces
-
 ------------------------------------------------------------
 ----------------------------NVIM----------------------------
 ------------------------------------------------------------
