@@ -9,6 +9,8 @@ find a way to hide files on newtree without having to add '.' at the beginning o
 create a bash script that automatically takes all the used firefox profiles and 
 takes its ID and add it on the script that symlinks to all firefox profiles the css configs.
 
+create a global alias for `rm` to `rm -i` just in case i accidently delete a file
+
 ------------------------------------------------------------
 ----------------------------NVIM----------------------------
 ------------------------------------------------------------
