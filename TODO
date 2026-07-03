@@ -17,7 +17,4 @@ create a global alias for `rm` to `rm -i` just in case i accidently delete a fil
 
 refactor nvim dotfiles, only what i changed should be on the repo, not the whole lazynvim source
 
-when typing j on the last line, take cursor to the last character
-when typing k on the first line, take cursor to the first character
-when typing l on the last character, take cursor to the first character of the next line
-when typing h on the first character, take cursor to the last character of previous line
+rm overwritten commands
