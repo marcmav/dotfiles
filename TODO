@@ -17,10 +17,6 @@ create a global alias for `rm` to `rm -i` just in case i accidently delete a fil
 
 refactor nvim dotfiles, only what i changed should be on the repo, not the whole lazynvim source
 
-add a command for :noau w
-
-add keymap for :source %
-
 find a new command for % (move between matching parenthesis)
 
 when typing j on the last line, take cursor to the last character
