@@ -21,8 +21,6 @@ add a command for :noau w
 
 add keymap for :source %
 
-ctrl + s or return for :w and ctrl + backspace for :q
-
 find a new command for % (move between matching parenthesis)
 
 when typing j on the last line, take cursor to the last character
