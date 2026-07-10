@@ -5,7 +5,7 @@
 -------------------------REMAP-------------------------
 -------------------------------------------------------
 
-vim.keymap.set("n", "U", "<C-r>") -- "Ctrl + r" to U
+-- vim.keymap.set("n", "U", "<C-r>") -- "Ctrl + r" to U -- trying
 
 -- toggle normal and terminal mode with "jj"
 vim.keymap.set("i", "jj", "<Esc>", { noremap = true })
@@ -25,7 +25,7 @@ vim.keymap.set("n", "<C-u>", "<C-u>zz")
 vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
 
--- open and close terminal with space + t
+-- open and close terminal with leader + t
 vim.keymap.set("n", "<leader>t", function()
     for _, buf in ipairs(vim.api.nvim_list_bufs()) do
         if vim.bo[buf].buftype == "terminal" then
