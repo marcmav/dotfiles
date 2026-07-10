@@ -7,7 +7,7 @@
 
 vim.keymap.set("n", "U", "<C-r>") -- "Ctrl + r" to U
 
--- toggle normal mode and terminal mode with "jj"
+-- toggle normal and terminal mode with "jj"
 vim.keymap.set("i", "jj", "<Esc>", { noremap = true })
 vim.keymap.set("t", "jj", "<C-\\><C-n>", { noremap = true, silent = true })
 
