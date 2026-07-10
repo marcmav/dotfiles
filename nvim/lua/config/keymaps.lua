@@ -20,10 +20,17 @@ vim.keymap.set("n", "<C-j>", "<C-w>j") -- ctrl + j = down window focus
 vim.keymap.set("n", "<C-k>", "<C-w>k") -- ctrl + k = up window focus
 vim.keymap.set("n", "<C-l>", "<C-w>l") -- ctrl + l = left window focus
 
+-- centralize when jumping accross the page
 vim.keymap.set("n", "<C-d>", "<C-d>zz")
 vim.keymap.set("n", "<C-u>", "<C-u>zz")
 vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
+
+-------------------------------------------------------
+-------------------------------------------------------
+
+------------------------ADD-ONS------------------------
+-------------------------------------------------------
 
 -- open and close terminal with leader + t
 vim.keymap.set("n", "<leader>t", function()
