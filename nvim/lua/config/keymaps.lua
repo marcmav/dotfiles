@@ -5,6 +5,7 @@
 -------------------------REMAP-------------------------
 -------------------------------------------------------
 
+-- redo with U instead of ctrl + r
 vim.keymap.set("n", "U", "<C-r>")
 
 -- toggle normal and terminal mode with "jj"
