@@ -5,7 +5,7 @@
 -------------------------REMAP-------------------------
 -------------------------------------------------------
 
-vim.keymap.set("n", "U", "<C-r>") -- "Ctrl + r" to U -- trying
+vim.keymap.set("n", "U", "<C-r>") -- "Ctrl + r" to U
 
 -- toggle normal and terminal mode with "jj"
 vim.keymap.set("i", "jj", "<Esc>", { noremap = true })
