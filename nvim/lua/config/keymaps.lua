@@ -15,12 +15,6 @@ vim.keymap.set("t", "jj", "<C-\\><C-n>", { noremap = true, silent = true })
 -- open neotree with space + e
 vim.keymap.set("n", "<leader>e", ":Neotree toggle<CR>")
 
--- ctrl + key arrows to change focus between windows (splits)
-vim.keymap.set("n", "<C-h>", "<C-w>h") -- ctrl + h = left window focus
-vim.keymap.set("n", "<C-j>", "<C-w>j") -- ctrl + j = down window focus
-vim.keymap.set("n", "<C-k>", "<C-w>k") -- ctrl + k = up window focus
-vim.keymap.set("n", "<C-l>", "<C-w>l") -- ctrl + l = left window focus
-
 -- centralize when jumping accross the page
 vim.keymap.set("n", "<C-d>", "<C-d>zz")
 vim.keymap.set("n", "<C-u>", "<C-u>zz")
