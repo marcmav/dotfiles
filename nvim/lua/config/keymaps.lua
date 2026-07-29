@@ -12,9 +12,6 @@ vim.keymap.set("n", "U", "<C-r>")
 vim.keymap.set("i", "jj", "<Esc>", { noremap = true })
 vim.keymap.set("t", "jj", "<C-\\><C-n>", { noremap = true, silent = true })
 
--- open neotree with space + e
-vim.keymap.set("n", "<leader>e", ":Neotree toggle<CR>")
-
 -- centralize when jumping accross the page
 vim.keymap.set("n", "<C-d>", "<C-d>zz")
 vim.keymap.set("n", "<C-u>", "<C-u>zz")
