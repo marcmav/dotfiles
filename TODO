@@ -19,4 +19,4 @@ create a global alias for `rm` to `rm -i` just in case i accidently delete a fil
 
 refactor nvim dotfiles, only what i changed should be on the repo, not the whole lazynvim source
 
-rm overwritten commands
+create the readme for nvim configs installation
