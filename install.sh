@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-DE=
+dev_env=
 
-read -p "enter your prefered development environment (absolute path eg. '~/Code/open-source/'): " DE
+read -p "enter your prefered development environment (absolute path eg. '~/Code/open-source/'): " dev_env
 
-cd $(DE) || mkdir $(DE)
-git clone github.com/marcmav/dotfiles.git
-cd dotfiles/
+cd $DE || mkdir $DE
+#git clone github.com/marcmav/dotfiles.git
+#cd dotfiles/
